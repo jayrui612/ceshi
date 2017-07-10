@@ -1,0 +1,73 @@
+table.imagetable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    width:1200px;
+    border-collapse: collapse;
+}
+table.imagetable th {
+    background:#b5cfd2 url('cell-blue.jpg');
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+}
+table.imagetable td {
+    background:#dcddc0 url('cell-grey.jpg');
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+}
+.pagination {
+    width: 100%;
+    text-align: right
+}
+
+.pagination ul {
+    padding: 0;
+    margin: 0 auto
+}
+
+.pagination ul li {
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 32px;
+    height: 34px;
+    color: #999;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    background: #fff
+}
+
+.pagination ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%
+}
+
+.pagination ul li:hover {
+    cursor: pointer
+}
+
+.pagination ul li.active,.pagination ul li:active {
+    border-color: #dd0312;
+    color: #dd0312
+}
+
+.pagination ul li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.pagination ul li:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+.typeadd{
+    float:right;
+    text-align: right;
+}
